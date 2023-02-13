@@ -7,7 +7,7 @@ import com.employee.dao.EmployeeDao;
 import com.employee.entity.EmployeeEntity;
 
 @Service
-public class EmployeeServiceImpl {
+public class EmployeeServiceImpl implements EmployeeService{
 	@Autowired
 	private EmployeeDao dao;
 	
